@@ -27,7 +27,7 @@ NUM_EPOCHS = 10
 NUM_NEURONS = 32
 
 
-# Add attention layer to the deep learning network
+# Classe de attention adaptada para LSTM
 class attention(Layer):
     def __init__(self,return_sequences = True):
         self.return_sequences = return_sequences
