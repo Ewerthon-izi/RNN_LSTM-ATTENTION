@@ -1,6 +1,6 @@
 library(ggstatsplot)
 library(gapminder)
-dados <- read.csv2("C:/Users/eweri/Desktop/TCC/erros11.csv", sep = ";", dec = ".") # nolint
+dados <- read.csv2("C:/Users/eweri/Desktop/TCC/erros.csv", sep = ";", dec = ".") # nolint
 
 dplyr::glimpse(dados)
 
