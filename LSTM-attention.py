@@ -22,6 +22,7 @@ from keras.layers import Input
 from matplotlib import pyplot
 from math import sqrt
 
+#Constantes no codigo
 LENGTH_PREVISION = -44
 NUM_EPOCHS = 10
 NUM_NEURONS = 32
